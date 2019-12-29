@@ -21,13 +21,13 @@ function megasena(t)
     return "Por favor, escolha como parâmetro 4, 5 ou 6."    
   end
 
-  while length(intersect(sorteio,jogo)) < t
+  while length(∩(sorteio,jogo)) < t
     jogo = sortear(60,6);
     sorteio = sortear(60,6);
     i += 1;
   end
   
-  intersec = length(intersect(sorteio,jogo))
+  intersec = length(∩(sorteio,jogo))
   if intersec == 6
     resul = " (Sena!)"
   elseif intersec == 5
