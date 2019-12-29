@@ -1,4 +1,4 @@
-# loteria.jl
+# loterias.jl
 
 Um programa escrito em Julia para fazer simulações de jogos das loterias da Caixa Econômica Federal.
 
