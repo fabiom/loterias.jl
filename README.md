@@ -4,7 +4,7 @@ Um programa escrito em Julia para fazer simulações de jogos das loterias da Ca
 
 ## Dependências
 
-Pacote `StatsBase`, que pode-se na interface do Julia com:
+Pacote `StatsBase`, que pode-se instalar na interface do Julia com:
 ```
 using Pkg;
 Pkg.add("StatsBase");
