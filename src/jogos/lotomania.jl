@@ -37,7 +37,7 @@ function lotomania(t)
   end
 
   println("Sorteio: ", sorteio)
-  println("Jogo: ", jogo, " (", length(∩(jogo,sorteio)), " acertos!)");
+  println("Jogo de acerto: ", jogo, " (", length(∩(jogo,sorteio)), " acertos!)");
   println("Numero de Jogos: ", i)
   return
 end

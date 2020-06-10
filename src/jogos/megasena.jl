@@ -37,7 +37,7 @@ function megasena(t)
   end
 
   println("Sorteio: ", sorteio)
-  println("Jogo: ", jogo, resul)
+  println("Jogo de acerto: ", jogo, resul)
   println("Numero de Jogos: ", i)
   return  
 end
