@@ -1,6 +1,14 @@
 # loterias.jl
 
-Um programa escrito em Julia para fazer simulações de jogos das loterias da Caixa Econômica Federal.
+Um programa escrito em Julia para fazer simulações de jogos das loterias da Caixa Econômica Federal. As simulações exibem quantos jogos foram necessários jogar até acertar.
+
+## Dependências
+
+Pacote `StatsBase`, que pode-se na interface do Julia com:
+```
+using Pkg;
+Pkg.add("StatsBase");
+```
 
 ## Utilização
 
